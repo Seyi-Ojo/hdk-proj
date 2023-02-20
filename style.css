@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    padding: 50px;
+    padding-top: 0;
+}
+.navigation_bar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0%;
+    padding: 4px 4px;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 4px; */
+}
+.navigation_bar a{
+    color: white;
+    text-decoration: none;
+}
+.main_nav_bar{
+    color: purple;
+    font-size: 30px;
+}
+.other_nav_bars{
+    padding-top: 10px;
+    float: right;
+}
+.other_nav_bars ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-weight: 200;
+}
+a:hover {
+    color: rgb(237, 105, 237);
+}
+.about{
+    color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 48px;
+    align-items: center;
+    margin-top: 5rem;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 8px;
+    transform: rotate(-8deg);
+    transition: transform 400ms ease;
+}
+img:hover{
+    transform: rotate(0deg);
+}
+.hello_fairy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+}
+.about_image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.hello{
+    padding-bottom: 0px;
+}
+.hello h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.hello_fairy p{
+    line-height: 24px;
+}
+.hello_fairy h1{
+    font-size: 64px;
+    margin-top: 2px;
+}
+.name{
+    padding-top: 0px;
+}
+.hire_me button{
+    color: purple;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-inline: 22px;
+    padding-block: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+}
+.little_intro a{
+    color: rgb(237, 105, 237);
+    display: inline-block;
+    margin-left: 4px;
+    padding-inline: 12px;
+    padding-block: 4px;
+
+}
+.contact{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.contact a {
+    display: inline-block;
+    padding-inline: 24px;
+    padding-block: 6px;
+    color: rgb(237, 105, 237);
+    text-decoration: none;
+    border: 1px solid white;
+}
