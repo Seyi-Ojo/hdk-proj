@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hdk-proj
+  labels:
+    app: hdk-proj
+  annotations:
+    description: "Deployment for my app container image"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hdk-proj
+  template:
+    metadata:
+      labels:
+        app: hdk-proj
+    spec:
+      containers:
+      - name: hdk-proj
+        image: thecloudfairy/hdk-proj:1.0
+        ports:
+        - containerPort: 80
+
